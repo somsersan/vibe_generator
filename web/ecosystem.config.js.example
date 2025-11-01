@@ -1,0 +1,44 @@
+module.exports = {
+  apps: [
+    {
+      name: "hhhack-web",
+      cwd: "/var/www/hhhack/web",
+      script: "npm",
+      args: "start",
+      instances: 1,
+      exec_mode: "fork",
+      env: {
+        NODE_ENV: "production",
+        PORT: "3000",
+        GEMINI_API_KEY: "YOUR_GEMINI_API_KEY_HERE",
+        GOOGLE_API_KEY: "YOUR_GOOGLE_API_KEY_HERE",
+        HTTPS_PROXY: "http://user:password@proxy-host:port",
+        HTTP_PROXY: "http://user:password@proxy-host:port",
+        https_proxy: "http://user:password@proxy-host:port",
+        http_proxy: "http://user:password@proxy-host:port",
+        YOUTUBE_API_KEY: "YOUR_YOUTUBE_API_KEY_HERE",
+        ELEVENLABS_API_KEY: "YOUR_ELEVENLABS_API_KEY_HERE"
+      }
+    },
+    {
+      name: "hhhack-ws",
+      cwd: "/var/www/hhhack/web",
+      script: "ws-proxy-server.js",
+      instances: 1,
+      exec_mode: "fork",
+      env: {
+        NODE_ENV: "production",
+        WS_PORT: "3001",
+        GEMINI_API_KEY: "YOUR_GEMINI_API_KEY_HERE",
+        GOOGLE_API_KEY: "YOUR_GOOGLE_API_KEY_HERE",
+        HTTPS_PROXY: "http://user:password@proxy-host:port",
+        HTTP_PROXY: "http://user:password@proxy-host:port",
+        https_proxy: "http://user:password@proxy-host:port",
+        http_proxy: "http://user:password@proxy-host:port",
+        YOUTUBE_API_KEY: "YOUR_YOUTUBE_API_KEY_HERE",
+        ELEVENLABS_API_KEY: "YOUR_ELEVENLABS_API_KEY_HERE"
+      }
+    }
+  ]
+};
+

@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-hh-red: #ff0000;
+  --color-hh-red-dark: #cc0000;
+  --color-hh-blue: #0094ff;
+  --color-hh-dark: #000000;
+  --color-hh-dark-900: #111111;
+  --color-hh-light: #ffffff;
+  --color-hh-gray-50: #f5f5f5;
+  --color-hh-gray-100: #fafafa;
+  --color-hh-gray-200: #e0e0e0;
+  --color-text-primary: #262626;
+  --color-text-secondary: #747474;
+  --color-success: #00a854;
+  --color-warning: #ffa500;
+  --color-error: #e74c3c;
+  --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SF Mono", "Roboto Mono", "Courier New", monospace;
+}
+
+html {
+  font-family: var(--font-body);
+  background: var(--color-hh-gray-50);
+  color: var(--color-text-primary);
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-hh-gray-50);
+  color: var(--color-text-primary);
+  font-family: inherit;
+  min-height: 100vh;
+}
+
+#__next,
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 148, 255, 0.25);
+}
+
+::selection {
+  background: rgba(255, 0, 0, 0.2);
+}
+
+/* Safe area helpers */
+.safe-area-inset-top {
+  padding-top: env(safe-area-inset-top);
+}
+
+.safe-area-inset-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+.safe-area-inset {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.hh-gradient-hero {
+  background: linear-gradient(135deg, #ff2d55 0%, #ff0000 55%, #b30000 100%);
+}
+
+.hh-gradient-overlay {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+
+/* Markdown styles for chat */
+.markdown-content h2:first-child,
+.markdown-content h3:first-child {
+  margin-top: 0;
+}
+
+.markdown-content-user h2,
+.markdown-content-user h3,
+.markdown-content-user p,
+.markdown-content-user li,
+.markdown-content-user strong,
+.markdown-content-user em,
+.markdown-content-user a {
+  color: white;
+}
+
+.markdown-content-assistant h2,
+.markdown-content-assistant h3,
+.markdown-content-assistant p,
+.markdown-content-assistant li,
+.markdown-content-assistant strong,
+.markdown-content-assistant em {
+  color: var(--color-text-primary);
+}

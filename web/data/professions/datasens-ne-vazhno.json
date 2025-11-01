@@ -1,0 +1,411 @@
+{
+  "profession": "Data Science",
+  "level": "Middle",
+  "company": "ООО \"Аналитика Будущего\"",
+  "displayLabels": {
+    "level": "Уровень квалификации",
+    "skills": "Ключевые компетенции",
+    "schedule": "Распорядок дня",
+    "careerPath": "Траектория развития"
+  },
+  "schedule": [
+    {
+      "time": "10:00",
+      "title": "Утренний стендап команды",
+      "emoji": "☕",
+      "description": "Обсуждаем вчерашние результаты и планы на сегодня. Главное - не забыть про кофе! \"Agile is the way!\"",
+      "detail": "Краткое обсуждение текущих задач и возникших проблем в команде. Распределение задач на день."
+    },
+    {
+      "time": "11:00",
+      "title": "Работа над моделью прогнозирования",
+      "emoji": "📊",
+      "description": "Настройка и оптимизация модели машинного обучения для прогнозирования оттока клиентов. \"Feature engineering - наше всё!\"",
+      "detail": "Анализ данных, выбор оптимальных алгоритмов, обучение модели и оценка ее производительности."
+    },
+    {
+      "time": "13:00",
+      "title": "Совещание с аналитиками",
+      "emoji": "🤝",
+      "description": "Обсуждение результатов прогнозирования и их интеграция в отчеты для руководства. \"Data-driven decisions!\"",
+      "detail": "Согласование форматов отчетов, интерпретация результатов и поиск инсайтов для бизнеса."
+    },
+    {
+      "time": "14:00",
+      "title": "Обед",
+      "emoji": "🍔",
+      "description": "Время подкрепиться и поболтать с коллегами. \"Пицца по пятницам - святое!\"",
+      "detail": "Обед в кафе с коллегами. Обсуждение последних новостей и проектов."
+    },
+    {
+      "time": "15:00",
+      "title": "Работа с базами данных",
+      "emoji": "🗄️",
+      "description": "Подготовка данных для новых моделей и анализ существующих данных. \"Clean data - happy life!\"",
+      "detail": "Извлечение, преобразование и загрузка данных (ETL) из различных источников. Обеспечение качества и консистентности данных."
+    },
+    {
+      "time": "17:00",
+      "title": "Code review и подготовка к деплою",
+      "emoji": "💻",
+      "description": "Проверка кода и подготовка к деплою новой версии модели. \"No bugs allowed!\"",
+      "detail": "Проверка кода коллег, написание тестов и подготовка документации для деплоя модели в production."
+    }
+  ],
+  "benefits": [
+    {
+      "icon": "🩺",
+      "text": "Расширенная медицинская страховка, покрывающая до 90% расходов на лечение и профилактику."
+    },
+    {
+      "icon": "🏖️",
+      "text": "28 дней оплачиваемого отпуска + 5 дополнительных дней для личного развития и обучения."
+    },
+    {
+      "icon": "💰",
+      "text": "Компенсация 50% стоимости обучения на курсах и конференциях по Data Science и Machine Learning."
+    },
+    {
+      "icon": "🏋️",
+      "text": "Бесплатный абонемент в спортзал и скидки до 70% на фитнес-программы."
+    }
+  ],
+  "careerPath": [
+    {
+      "level": "Junior Data Scientist",
+      "years": "0-1 год",
+      "salary": "80,000 - 120,000 руб."
+    },
+    {
+      "level": "Middle Data Scientist",
+      "years": "2-4 года",
+      "salary": "150,000 - 250,000 руб."
+    },
+    {
+      "level": "Senior Data Scientist",
+      "years": "5+ лет",
+      "salary": "280,000 - 400,000 руб."
+    },
+    {
+      "level": "Team Lead Data Science",
+      "years": "7+ лет",
+      "salary": "450,000+ руб."
+    }
+  ],
+  "dialog": {
+    "message": "Привет, Иван! Как продвигается работа над моделью оттока?",
+    "options": [
+      "Всё идёт по плану!",
+      "Есть небольшие трудности с feature engineering.",
+      "Нужна помощь с оптимизацией параметров."
+    ],
+    "response": "Привет, Пётр! Сейчас борюсь с пропущенными значениями в данных. Feature engineering - это всегда вызов! Может, вместе посмотрим на параметры? Две головы лучше!"
+  },
+  "isIT": true,
+  "slug": "datasens-ne-vazhno",
+  "images": [
+    "/generated/datasens-ne-vazhno/image-1.png",
+    "/generated/datasens-ne-vazhno/image-2.png",
+    "/generated/datasens-ne-vazhno/image-3.png",
+    "/generated/datasens-ne-vazhno/image-4.png"
+  ],
+  "vacancies": 0,
+  "competition": "низкая",
+  "avgSalary": null,
+  "topCompanies": [],
+  "videos": [],
+  "audio": {
+    "timelineSounds": []
+  },
+  "careerTree": {
+    "currentRole": {
+      "title": "Data Scientist",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "SQL",
+        "Statistical Analysis",
+        "Data Visualization"
+      ],
+      "level": "Middle"
+    },
+    "paths": [
+      {
+        "id": "path1",
+        "title": "Senior Data Scientist",
+        "type": "vertical",
+        "skills": [
+          "Python",
+          "Machine Learning",
+          "SQL",
+          "Statistical Analysis",
+          "Data Visualization",
+          "Experiment Design",
+          "A/B Testing",
+          "Deep Learning"
+        ],
+        "skillsRequired": [
+          "Advanced Deep Learning (Transformers, GANs)",
+          "Experiment Design & A/B Testing",
+          "Production deployment of ML models"
+        ],
+        "timeToReach": "1-2 года",
+        "salaryRange": "250 000 - 400 000 ₽",
+        "relatedProfessions": [
+          "Lead Data Scientist",
+          "Principal Data Scientist",
+          "Research Scientist"
+        ],
+        "difficulty": "medium",
+        "benefits": [
+          "Deeper technical expertise",
+          "More complex and impactful projects",
+          "Higher salary and recognition"
+        ],
+        "description": "Focus on mastering advanced machine learning techniques and deploying models to production.",
+        "vacancies": 162
+      },
+      {
+        "id": "path2",
+        "title": "ML Engineer",
+        "type": "horizontal",
+        "skills": [
+          "Python",
+          "Machine Learning",
+          "SQL",
+          "Docker",
+          "Kubernetes",
+          "CI/CD",
+          "AWS/GCP/Azure",
+          "MLOps"
+        ],
+        "skillsRequired": [
+          "DevOps principles (CI/CD, Infrastructure as Code)",
+          "Containerization (Docker, Kubernetes)",
+          "Cloud Platforms (AWS, GCP, Azure)",
+          "MLOps tools (e.g., Kubeflow, MLflow)"
+        ],
+        "timeToReach": "1-2 года",
+        "salaryRange": "200 000 - 350 000 ₽",
+        "relatedProfessions": [
+          "Data Engineer",
+          "DevOps Engineer",
+          "Platform Engineer"
+        ],
+        "difficulty": "medium",
+        "benefits": [
+          "Bridge the gap between research and production",
+          "Build scalable and reliable ML systems",
+          "High demand in the industry"
+        ],
+        "description": "Develop and deploy machine learning models to production, focusing on scalability and reliability.",
+        "vacancies": 803
+      },
+      {
+        "id": "path3",
+        "title": "Data Analyst / Business Intelligence Analyst",
+        "type": "alternative",
+        "skills": [
+          "SQL",
+          "Data Visualization (Tableau, Power BI)",
+          "Statistical Analysis",
+          "Communication",
+          "Business Acumen",
+          "Data Warehousing (e.g., Snowflake, Redshift)"
+        ],
+        "skillsRequired": [
+          "Advanced Data Visualization (Tableau, Power BI)",
+          "Data Warehousing Concepts",
+          "Business Communication & Storytelling"
+        ],
+        "timeToReach": "1 год",
+        "salaryRange": "150 000 - 250 000 ₽",
+        "relatedProfessions": [
+          "Business Analyst",
+          "Product Analyst",
+          "Marketing Analyst"
+        ],
+        "difficulty": "easy",
+        "benefits": [
+          "Direct impact on business decisions",
+          "Strong communication and presentation skills",
+          "Clear career path"
+        ],
+        "description": "Use data to understand business trends, create dashboards, and provide insights to stakeholders.",
+        "vacancies": 29
+      },
+      {
+        "id": "path4",
+        "title": "Data Architect",
+        "type": "horizontal",
+        "skills": [
+          "SQL",
+          "Data Modeling",
+          "ETL processes",
+          "Cloud technologies",
+          "Data Governance",
+          "Big Data technologies (Spark, Hadoop)",
+          "Database Design"
+        ],
+        "skillsRequired": [
+          "Big Data technologies (Spark, Hadoop)",
+          "Cloud Data Platforms (AWS, GCP, Azure)",
+          "Data Governance & Security",
+          "Advanced SQL"
+        ],
+        "timeToReach": "2-3 года",
+        "salaryRange": "250 000 - 450 000 ₽",
+        "relatedProfessions": [
+          "Data Engineer",
+          "Solutions Architect",
+          "Enterprise Architect"
+        ],
+        "difficulty": "hard",
+        "benefits": [
+          "Design and implement data infrastructure",
+          "Work with cutting-edge technologies",
+          "Strategic role with high impact"
+        ],
+        "description": "Design and build scalable and robust data architectures to support data-driven initiatives.",
+        "vacancies": 169
+      },
+      {
+        "id": "path5",
+        "title": "Research Scientist",
+        "type": "vertical",
+        "skills": [
+          "Python",
+          "Machine Learning",
+          "Statistical Analysis",
+          "Deep Learning",
+          "Mathematics",
+          "Research Methodology",
+          "Publications"
+        ],
+        "skillsRequired": [
+          "Advanced Mathematical Foundations",
+          "Research Methodology & Publication",
+          "Novel Algorithm Development"
+        ],
+        "timeToReach": "2-3 года",
+        "salaryRange": "200 000 - 400 000 ₽",
+        "relatedProfessions": [
+          "Postdoctoral Researcher",
+          "Professor",
+          "AI Scientist"
+        ],
+        "difficulty": "hard",
+        "benefits": [
+          "Contribute to the advancement of knowledge",
+          "Work on challenging and innovative problems",
+          "Publish research papers and present at conferences"
+        ],
+        "description": "Conduct research in machine learning, develop new algorithms, and publish findings.",
+        "vacancies": 28
+      },
+      {
+        "id": "path6",
+        "title": "AI Product Manager",
+        "type": "alternative",
+        "skills": [
+          "Machine Learning",
+          "Data Analysis",
+          "Product Management",
+          "Communication",
+          "Market Research",
+          "Strategy"
+        ],
+        "skillsRequired": [
+          "Product Management Principles",
+          "Market Research & Competitive Analysis",
+          "Business Strategy & Roadmap Planning"
+        ],
+        "timeToReach": "1-2 года",
+        "salaryRange": "200 000 - 400 000 ₽",
+        "relatedProfessions": [
+          "Product Owner",
+          "Technical Product Manager"
+        ],
+        "difficulty": "medium",
+        "benefits": [
+          "Shape the future of AI products",
+          "Work closely with engineers and stakeholders",
+          "High visibility and impact"
+        ],
+        "description": "Define and execute the product strategy for AI-powered products.",
+        "vacancies": 134
+      }
+    ],
+    "skillTree": {
+      "skills": [
+        {
+          "id": "skill1",
+          "name": "Deep Learning",
+          "level": 60,
+          "description": "Understanding and application of deep learning models for various tasks (e.g., image recognition, NLP).",
+          "opensRoles": [
+            "path1",
+            "path5"
+          ]
+        },
+        {
+          "id": "skill2",
+          "name": "MLOps",
+          "level": 40,
+          "description": "Skills and tools for deploying, monitoring, and managing machine learning models in production.",
+          "opensRoles": [
+            "path2"
+          ]
+        },
+        {
+          "id": "skill3",
+          "name": "Data Visualization (Advanced)",
+          "level": 80,
+          "description": "Proficiency in creating interactive and insightful dashboards using tools like Tableau or Power BI.",
+          "opensRoles": [
+            "path3"
+          ]
+        },
+        {
+          "id": "skill4",
+          "name": "Cloud Computing (AWS, GCP, Azure)",
+          "level": 50,
+          "description": "Experience with cloud platforms for data storage, processing, and machine learning.",
+          "opensRoles": [
+            "path2",
+            "path4"
+          ]
+        },
+        {
+          "id": "skill5",
+          "name": "Big Data Technologies (Spark, Hadoop)",
+          "level": 40,
+          "description": "Processing and analyzing large datasets using distributed computing frameworks.",
+          "opensRoles": [
+            "path4"
+          ]
+        },
+        {
+          "id": "skill6",
+          "name": "Product Management",
+          "level": 30,
+          "description": "Understanding the product development lifecycle and how to define and prioritize features.",
+          "opensRoles": [
+            "path6"
+          ]
+        },
+        {
+          "id": "skill7",
+          "name": "Experiment Design and A/B Testing",
+          "level": 70,
+          "description": "Designing and analyzing experiments to validate hypotheses and optimize models.",
+          "opensRoles": [
+            "path1"
+          ]
+        }
+      ]
+    }
+  },
+  "generatedAt": "2025-10-30T20:51:55.958Z",
+  "specialization": "Не важно"
+}
